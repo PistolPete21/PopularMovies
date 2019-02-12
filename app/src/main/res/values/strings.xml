@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+    <string name="error_message">Error loading popular movies…</string>
+    <string name="network_message">Please connect to a valid network connection.</string>
+
+    <string name="movie_thumbnail_content_description">Movie thumbnail</string>
+    <string name="movie_poster_content_description">Movie poster</string>
+    <!-- Menu Item Strings -->
+    <string name="menu_sort">Sort menu button</string>
+    <string name="action_sort_by_most_popular">Most popular</string>
+    <string name="action_sort_by_top_rated">Top rated</string>
+</resources>
