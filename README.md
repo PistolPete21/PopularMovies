@@ -1,4 +1,4 @@
-# Popular Movies Club Project
+# Popular Movies Project
 
 ## Project Overview
 In this project, you will complete the **Popular Movies** app to
