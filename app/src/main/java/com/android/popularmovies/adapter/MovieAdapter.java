@@ -1,20 +1,19 @@
 package com.android.popularmovies.adapter;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.popularmovies.R;
 import com.android.popularmovies.utilites.Movie;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
-
-import static android.support.v7.widget.RecyclerView.*;
 
 public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieAdapterViewHolder> {
     private List<Movie> results;
@@ -29,7 +28,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieAdapter
         clickHandler = movieAdapterOnClickHandler;
     }
 
-    public class MovieAdapterViewHolder extends ViewHolder implements OnClickListener {
+    public class MovieAdapterViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         private final ImageView moviePosterImageView;
 
         private MovieAdapterViewHolder(View view) {
